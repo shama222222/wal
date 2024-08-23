@@ -26,7 +26,6 @@ except:
 	kok.close()
 os.system("bash setup.sh")
 os.system("clear")
-    x = """
 
  
 #-------------------------------------------------------------------
