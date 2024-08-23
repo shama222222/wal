@@ -79,7 +79,7 @@ def logo():
 ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣧⣾⣿⣿⠟⠁
 ⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣶⣶⣄⠀⠀⣸⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀
-⠀⠀ ⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣄[Hater's]⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀ ⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣄[Abhayki dd's]⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⡟⠀⠹⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠇⢿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⠁⠀⣀⣈⠻⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⠟⠀⢸⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣧⣾⣿⣿⣷⣜⢿⣿⣿⣧⠀⠀⠀⠀⢀⣀⣈⡙⠛⠛⠋⠁⠀⠀⢸⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
@@ -232,6 +232,7 @@ while True:
             access_token_id = access_token[:4] + '********'
  
             # Print the profile information
+            print(f'{Fore.YELLOW}Profile {profile_number} (ID: {access_token_id}): {profile_name}')
             print('--------------------------------------------')
  
             # Iterate over the user IDs and messages
@@ -276,6 +277,7 @@ while True:
  
         except Exception as e:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            print(f'{Fore.RED}[{current_time}] An error occurred: {str(e)}{Style.RESET_ALL}')
             continue
  
     print('--------------------------------------------')
