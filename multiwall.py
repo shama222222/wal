@@ -13,8 +13,11 @@ import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
 from os import system as sh
 from time import sleep
  
-
+os.system("xdg-open https://www.facebook.com/groups/294191408815536/?ref=share")
 time.sleep(1)
+ 
+logo = r'''
+ 
  
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣶⣤⡀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⡆[My Friend]⠀⠀
@@ -39,54 +42,17 @@ time.sleep(1)
 ⠀⢀⣤⣤⣤⣤⣤⣼⣿⣿⣿⣿⡇⠀⢹⣿⣿⣿⣿⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
 ⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢠⣼⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠉⢀⣿⣿⣿⣤⣤⣄⣀⣀⣀⡀⠀⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
 ⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣾⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠻⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀
- for N, line in enumerate(x.split("\n")):
-        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
-        time.sleep(0.05)
-logo()
-print('''\033[1;33m---------------------------------------------------------------------\n''')
-def venom():
-    clear = "\x1b[0m"
-    colors = [35, 33, 36]
-
-    y = '''
-\033[1;97m╔═════════════════════════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mN4M3    \033[1;91m: \033[1;96mSOURAV TIWARI \033[1;97m                       
-\033[1;97m║\033[1;93m* \033[1;97mRULL3X  \033[1;91m: \033[1;96mNO RUL3X N0 G9NG \033[1;97m         
-\033[1;97m║\033[1;93m* \033[1;97mBR9ND   \033[1;91m: \033[1;96mMR R9HUL H3R3  \033[1;97m             
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;96mhttps://www.facebook.com/R4HULD0NH3R3\033[1;97m.   
-\033[1;97m║\033[1;93m* \033[1;97mWH9TS99P N0. \033[1;91m: \033[1;96m+91 9106****71\033[1;97m                           
-\033[1;97m╚═════════════════════════════════════════════════════════════╝
-
+                                                            
+--------------------------------------------------------------  
+      WELCOME TO THE MULTI TOKEN POST TOOL
+--------------------------------------------------------------                                                                                
+       THIS TOOL CREATED BY RAHUL TIWARI
+--------------------------------------------------------------  
+        MULTI IDZ MULTI PAGE WALLS MULTI FILE LOADER TOOL
+--------------------------------------------------------------                            
 '''
-    for N, line in enumerate(y.split("\n")):
-        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
-        time.sleep(0.05)
-    	
-venom()
-print('''\033[1;32m[#] _ KATTAR HINDU == > [ Jai Shree Ram ❤️💪]\n''')
-if int:
-    print('''\033[1;36m---------------------------------------------------------------------\n''')
-    print('''\033[1;35m-=[ THIS IS MULTI Wall + POST LOADER TOOL CREATED BY MR. SOURAV ]=-''')
-    print('''\033[1;33m-=[ Contact Us :: https://www.facebook.com/R9HULD0NH3R3/]=-\n''')
-    print('''\033[1;36m---------------------------------------------------------------------\n''')
-    i = datetime.now()
-    print(i.strftime("\033[1;32m[#] SYSTEM STARTED TIME ==> %Y-%m-%d %I:%M:%S %p "))
-    print('''\033[1;32m[#] _ IITX Y0UR D9D == > [ MR. RAHUL ]\n''')
-    print("\033[1;36;40m", end = "")
-    Nam = input(" WHAT IS YOUR NAME BRO: ")
-    
-   # Prompt Password 
-def pas():
-    print('\u001b[37m' + '---------------------------------------------------')
-    password = input("Password : ") 
-    print('--------------------------------------------')
-    mmm = requests.get('https://pastebin.com/raw/tBBC9TVj').text
-
-    if mmm not in password:
-        print('[-] <==> Incorrect Password!')
-        sys.exit()
-        
-pas()
+# Print the logo
+print(Fore.CYAN + logo +  Style.RESET_ALL)
  
  
 # Prompt for token file
