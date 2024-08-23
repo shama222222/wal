@@ -107,6 +107,10 @@ def venom():
 \033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;96mhttps://www.facebook.com/R4HULD0NH3R3\033[1;97m.   
 \033[1;97m║\033[1;93m* \033[1;97mWH9TS99P N0. \033[1;91m: \033[1;96m+91 9106****71\033[1;97m                           
 \033[1;97m╚═════════════════════════════════════════════════════════════╝
+'''
+    for N, line in enumerate(y.split("\n")):
+        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
+        time.sleep(0.05)
 
 # Prompt Password 
 def pas():
@@ -121,11 +125,7 @@ def pas():
         
 pas()
 
-'''
-    for N, line in enumerate(y.split("\n")):
-        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
-        time.sleep(0.05)
-    	
+
 venom()
 print('''\033[1;32m[#] _ KATTAR HINDU == > [ Jai Shree Ram ❤️💪]\n''')
 if int:
