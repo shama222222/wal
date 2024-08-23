@@ -13,7 +13,6 @@ import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
 from os import system as sh
 from time import sleep
  
-os.system("xdg-open https://www.facebook.com/arti.raturi.184/?ref=share")
 time.sleep(1)
  
 def cls():
