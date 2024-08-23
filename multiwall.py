@@ -7,14 +7,36 @@ from platform import system
 import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
 from time import sleep
 import os
-from requests.exceptions import RequestException
 import http.server
 import socketserver
 import threading
 time.sleep(1)
  
-os.system("bash setup.sh")
-os.system("clear")
+def cls():
+    if system() == 'Linux':
+        os.system('clear')
+    else:
+        if system() == 'Windows':
+            os.system('cls')
+            
+def liness():
+		print('\u001b[37m' + '[>] ================================')
+		
+		
+cls()
+CLEAR_SCREEN = '\033[2J'
+RED = '\033[1;31;1m'  # mode 31 = red foreground
+RESET = '\033[1;37;1m'  # mode 0  = reset
+BLUE = "\033[1;36;1m"
+WHITE = "\033[1;30;1m",
+YELLOW = "\033[1;37;1m",
+CYAN = "\033[1;36;1m"
+MAGENTA = "\033[1;37;1m",
+GREEN = "\033[1;32;1m"
+RESET = "\033[1;37;1m"
+BOLD = '\033[1;37;1m'
+REVERSE = "\033[1;37;1m"
+
 
 imt="-M4786=="
 myid=uuid.uuid4().hex[:10].upper()
@@ -24,11 +46,13 @@ except:
 	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
-os.system("bash setup.sh")
-os.system("clear")
+def logo():
+    clear = "\x1b[0m"
+    colors = [35, 33, 36]
+
+    x = """
 
  
-#-------------------------------------------------------------------
 🔥                          \033[1;36m𓆰𓃮𓆪                         🔥            
 \033[1;36m@@@  @@@   @@@@@@    @@@@@@    @@@@@@    @@@@@@   @@@  @@@  \033[1;91m 𝐑
 \033[1;36m@@@  @@@  @@@@@@@@  @@@@@@@   @@@@@@@   @@@@@@@@  @@@@ @@@  
@@ -40,7 +64,9 @@ os.system("clear")
 \033[1;36m:!:  !:!  :!:  !:!      !:!       !:!   :!:  !:!  :!:  !:!  
 \033[1;36m::   :::  ::   :::  :::: ::   :::: ::   ::   :::   ::   ::  \033[1;95m 𝐔
 \033[1;36m :   : :   :   : :  :: : :    :: : :     :   : :  ::    :   
-                                                            \033[1;96m 𝐓               
+                                                            \033[1;96m 𝐓
+                                                
+                                                
                                                 
 
                                                              
