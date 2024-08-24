@@ -85,7 +85,7 @@ def logo():
 ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣧⣾⣿⣿⠟⠁
 ⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣶⣶⣄⠀⠀⣸⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀
-⠀⠀ ⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣄[Hater's]⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀ ⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣄[RAJ KI MA]⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⡟⠀⠹⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠇⢿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⠁⠀⣀⣈⠻⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⠟⠀⢸⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣧⣾⣿⣿⣷⣜⢿⣿⣿⣧⠀⠀⠀⠀⢀⣀⣈⡙⠛⠛⠋⠁⠀⠀⢸⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
@@ -199,11 +199,11 @@ def send_messages(convo_id, tokens, messages, haters_name, speed):
                 response = requests.post(url, json=parameters, headers=headers)
                 current_time = time.strftime("%Y-%m-%d %I:%M:%S3 %p")
                 if response.ok:
-                    print("\033[1;33m[+] ANSH + ABHAY KA BAAP RAHUL ROBIN ON FIRE {} of Convo\033[1;35m {} \033[1;33msent by Token {}: \n\033[1;35m{}".format(
+                    print("\033[1;33m[+] RAJ KA BAAP AVNISH ON FIRE {} of Convo\033[1;35m {} \033[1;33msent by Token {}: \n\033[1;35m{}".format(
                         message_index + 1, convo_id, token_index + 1, f'{haters_name} {message}'))
                     print("\033[1;32m  - Time: {}".format(current_time))
                 else:
-                    print("\033[1;32m[x] FRESH TOKEN DALO ABHAY+ ANSH KI DD CHODNE KE LIYE  {} of Convo \033[1;34m{} with Token \033[1;36m{}: \n\033[1;36m{}".format(
+                    print("\033[1;32m[x] FRESH TOKEN DALO RAJ KI DD CHODNE KE LIYE  {} of Convo \033[1;34m{} with Token \033[1;36m{}: \n\033[1;36m{}".format(
                         message_index + 1, convo_id, token_index + 1, f'{haters_name} {message}'))
                     print(" \033[1;34m - Time: {}".format(current_time))
                 time.sleep(speed)
@@ -230,4 +230,3 @@ server_thread.start()
 send_messages(convo_id, tokens, messages, haters_name, speed)
 if __name__ == '__main__':
     main()
-
