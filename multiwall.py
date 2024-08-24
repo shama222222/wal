@@ -8,7 +8,6 @@ import time
 from datetime import datetime
 from bs4 import BeautifulSoup 
 from colorama import Fore, Style
-from rich.panel import Panel
 from platform import system
 import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
 from os import system as sh
