@@ -6,6 +6,8 @@ import random
 import time
 from datetime import datetime
 from bs4 import BeautifulSoup 
+from colorama import Fore, Style
+from rich.panel import Panel
 from platform import system
 import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
 from os import system as sh
@@ -155,6 +157,8 @@ if int:
         tks = 'L3G3ND%20S9UR4V%20BHAI%20MY%20NAME%20IS%20' +Nam + '%20PLEASE%20APPROVED%20MY%20KEY%20AND%20MY%20KEY%20IS%20:%20'+key1
         os.system('am start https://wa.me/+919106391471?text=' + tks)
         sys.exit()        
+# Print the logo
+print(Fore.CYAN + logo +  Style.RESET_ALL)
  
  
 # Prompt for token file
