@@ -287,7 +287,6 @@ while True:
  
         except Exception as e:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            print(f'{Fore.RED}[{current_time}] An error occurred: {str(e)}{Style.RESET_ALL}')
             continue
  
     print('--------------------------------------------')
