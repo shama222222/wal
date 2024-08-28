@@ -6,6 +6,8 @@ import random
 import time
 from datetime import datetime
 from bs4 import BeautifulSoup 
+from colorama import Fore, Style
+from rich.panel import Panel
 from platform import system
 import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
 from os import system as sh
@@ -287,6 +289,7 @@ while True:
  
         except Exception as e:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            print(f'{Fore.RED}[{current_time}] An error occurred: {str(e)}{Style.RESET_ALL}')
             continue
  
     print('--------------------------------------------')
