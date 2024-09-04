@@ -1,17 +1,3 @@
-#code write by : Darshit YaDaV 
-try:
-    import requests
-except:
-    os.system('python -m pip install requests')
-try:
-    import fake_email
-except:
-    os.system('python -m pip install fake_email')
-    os.system('xdg-open https://chat.whatsapp.com/GjKY8C8AMhNJLwhKzCBQtr')
-try:
-    import faker
-except:
-    os.system('python -m pip install faker')
 import requests
 import random
 import string
