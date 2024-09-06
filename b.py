@@ -2,54 +2,115 @@ import os,requests,time
 import requests,os,sys
 from concurrent.futures import ThreadPoolExecutor as ThreadPool  
 
-try:
-	import requests
-except ModuleNotFoundError:
-	os.system('pip insta requests')
-	import requests
-import requests,os,sys,random
-try:
-	import requests
-except ModuleNotFoundError:
-	os.system("pip install requests")
-	import requests
+def cls():
+    if system() == 'Linux':
+        os.system('clear')
+    else:
+        if system() == 'Windows':
+            os.system('cls')
+            
+def liness():
+		print('\u001b[37m' + '[>] ================================')
+		
+		
+cls()
+CLEAR_SCREEN = '\033[2J'
+RED = '\033[1;31;1m'  # mode 31 = red foreground
+RESET = '\033[1;37;1m'  # mode 0  = reset
+BLUE = "\033[1;36;1m"
+WHITE = "\033[1;30;1m",
+YELLOW = "\033[1;37;1m",
+CYAN = "\033[1;36;1m"
+MAGENTA = "\033[1;37;1m",
+GREEN = "\033[1;32;1m"
+RESET = "\033[1;37;1m"
+BOLD = '\033[1;37;1m'
+REVERSE = "\033[1;37;1m"
 
-b="\033[1;34m"#----------𝗯𝗹𝘂𝗲
-bl="\033[1;30m"#--------𝗯𝗹𝗮𝗰𝗸
-c="\033[1;36m"#----------𝗰𝘆𝗮𝗻
-g="\033[1;32m"#----------𝗴𝗿𝗲𝗲𝗻
-p="\033[1;35m"#----------𝗽𝘂𝗿𝗽𝗹𝗲
-r="\033[1;31m"#----------𝗿𝗲𝗱
-y="\033[1;33m"#----------𝘆𝗲𝗹𝗹𝗼𝘄
-w="\033[1;37m"#----------𝘄𝗵𝗶𝘁𝗲 {𝗲𝗻𝗱}
-S = '\033[1;37m';A = '\x1b[38;5;208m';R = '\x1b[38;5;46m';F = '\x1b[38;5;48m';Z = '\033[1;33m';A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;48m';h = '\x1b[38;5;48m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;46m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';W = '\x1b[38;5;196m';hh = '\033[34;1m'
-import requests,os,sys
-from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
+imt="-M4786=="
+myid=uuid.uuid4().hex[:10].upper()
 try:
-    import requests
+	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 except:
-    os.system("pip install requests")
-    import requests 
+	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
+	kok.write(myid+imt)
+	kok.close()
+def logo():
+    clear = "\x1b[0m"
+    colors = [35, 33, 36]
 
-  
-
-os.system('clear')
-name = input(f"{R}[{G1}+{R}]{G1} ENTER YOUR NAME : ").upper()
-logo = f"""
-{G1}
+    x = """
  
+ 
+ /$$$$$$$   /$$$$$$  /$$   /$$ /$$   /$$ /$$      
+| $$__  $$ /$$__  $$| $$  | $$| $$  | $$| $$      
+| $$  \ $$| $$  \ $$| $$  | $$| $$  | $$| $$      
+| $$$$$$$/| $$$$$$$$| $$$$$$$$| $$  | $$| $$      
+| $$__  $$| $$__  $$| $$__  $$| $$  | $$| $$      
+| $$  \ $$| $$  | $$| $$  | $$| $$  | $$| $$      
+| $$  | $$| $$  | $$| $$  | $$|  $$$$$$/| $$$$$$$$
+|__/  |__/|__/  |__/|__/  |__/ \______/ |________/
 
-██╗  ██╗ █████╗ ██╗  ██╗   ██╗ █████╗ ███╗   ██╗    
-██║ ██╔╝██╔══██╗██║  ╚██╗ ██╔╝██╔══██╗████╗  ██║    
-█████╔╝ ███████║██║   ╚████╔╝ ███████║██╔██╗ ██║    
-██╔═██╗ ██╔══██║██║    ╚██╔╝  ██╔══██║██║╚██╗██║    
-██║  ██╗██║  ██║███████╗██║   ██║  ██║██║ ╚████║    
-╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝     
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣶⣤⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⡆[My Friend]⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⠟⠁⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣬⣉⠉⠀⠀⠀⠀⠀
+⠀⠀⠀⠀ ⠀⠀[Me]⣾⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⣤⣍⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⢿⣿⣿⣷⡀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⡟⢀⣿⣿⣿⣷
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣧⣾⣿⣿⠟⠁
+⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣶⣶⣄⠀⠀⣸⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀
+⠀⠀ ⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣄[Abhayki maa]⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⡟⠀⠹⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠇⢿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⠁⠀⣀⣈⠻⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⠟⠀⢸⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣧⣾⣿⣿⣷⣜⢿⣿⣿⣧⠀⠀⠀⠀⢀⣀⣈⡙⠛⠛⠋⠁⠀⠀⢸⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⣿⣧⣝⣛⣡⣶⣶⣾⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⡇⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⡇⠀⣿⣿⣿⣿⣿⠛⠛⠻⠿⢿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⢀⣤⣤⣤⣤⣤⣼⣿⣿⣿⣿⡇⠀⢹⣿⣿⣿⣿⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
+⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢠⣼⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠉⢀⣿⣿⣿⣤⣤⣄⣀⣀⣀⡀⠀⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
+⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣾⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠻⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀
+
+"""
+    for N, line in enumerate(x.split("\n")):
+        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
+        time.sleep(0.05)
+logo()
+print('''\033[1;33m---------------------------------------------------------------------\n''')
+def venom():
+    clear = "\x1b[0m"
+    colors = [35, 33, 36]
+
+
                                                          
 {R}[{G1}+{R}]{G1}Decode{G1}━{R}>{G1}Marshal.Zlib.Decompress.Base64.B64decode
 {R}[{G1}+{R}]{G1}Yourname{G1}━{R}>{G1}{name}
 """
+
+#---------------APPROVAL--------SYSTEM---------------#
+    key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+    r1=requests.get("https://github.com/prema577/Approval/blob/main/approval.txt").text
+    if key1 in r1:
+        os.system('espeak -a 300 " YOUR, KEY,  IS,  SUCCESSFULLY,   APPROVED..."')
+        liness()
+        print(BOLD + CYAN + "YOUR KEY WAS SUCCESSFULLY APPROVED")
+    else:
+        os.system('espeak -a 300 " YOUR, KEY, NOT,   APPROVED..."')
+        print(BOLD + RED + " YOUR KEY IS NOT APPROVED BRO ")
+        sleep(3.5)
+        liness()
+        liness()
+        input(BOLD + GREEN + " Press Enter To Send Key")
+        time.sleep(3.5)
+        tks = 'L3G3ND%20S9UR4V%20BHAI%20MY%20NAME%20IS%20' +Nam + '%20PLEASE%20APPROVED%20MY%20KEY%20AND%20MY%20KEY%20IS%20:%20'+key1
+        os.system('am start https://wa.me/+919106391471?text=' + tks)
+        sys.exit()        
+ 
 def main_dec():
 	os.system('clear')
 	print(logo)
@@ -70,60 +131,60 @@ def main_dec():
 	try:
 		file=input(f"{R}[{G1}+{R}]{G1} INPUT YOUR FILE : ")
 		open(file)
-		os.system(f"cp {file} .b.py")
+		os.system(f"cp {file} .Rahul.py")
 	except:
 		exit('Nawaka Hallaya')
 	try:
 		open(file).read()
 	except:
-		os.system(f"pycdc .b.py > .a.py")
+		os.system(f"pycdc .Rahul.py > .a.py")
 		files = open(".a.py", "r").read()
 		if "exec(str(chr" in files:
 			c= files.split(']')[0]+"]\nprint(''.join([chr(i) for i in _]))"
 			files = open(".a.py", "w").write(c)
-			os.system("python3 .a.py > .b.py")
+			os.system("python3 .a.py > .Rahul.py")
 		else:
-			os.system("mv .a.py .b.py")
+			os.system("mv .a.py .Rahul.py")
 			pass
 	print(f'{R}[{G1}+{R}]{G1} PLEASE WAIT I WILL TRYING TO DECODING')
 	while True:
-		file = open(".b.py", "r").read()
+		file = open(".Rahul.py", "r").read()
 		if "(__import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(b" in file:
 			filer = file.split("exec(")[1]
-			open(".b.py", "w").write("import minopyc,marshal\ncode =("+filer+"\nminopyc.dump_to_pyc(code, '.a.py')")
-			os.system("python3 .b.py;pycdc .a.py > .b.py")
+			open(".Rahul.py", "w").write("import minopyc,marshal\ncode =("+filer+"\nminopyc.dump_to_pyc(code, '.a.py')")
+			os.system("python3 .Rahul.py;pycdc .a.py > .Rahul.py")
 		elif "(__import__('marshal').loads(__import__('marshal').loads(__import__('marshal').loads(" in file:
 			filer = file.split("exec(")[1]
-			open(".b.py", "w").write("import minopyc,marshal\ncode =("+filer+"\nminopyc.dump_to_pyc(code, '.a.py')")
-			os.system("python3 .b.py;pycdc .a.py > .b.py")
+			open(".Rahul.py", "w").write("import minopyc,marshal\ncode =("+filer+"\nminopyc.dump_to_pyc(code, '.a.py')")
+			os.system("python3 .Rahul.py;pycdc .a.py > .Rahul.py")
 		elif "exec(_(" in file:
 			
 			c= file.split('exec(_(')[1]
 			l = ("import marshal,zlib,base64,minopyc\nx = (("+c+"\ny = x[:: -1]\nb = marshal.loads(zlib.decompress(base64.b64decode(y)))\nminopyc.dump_to_pyc(b,'.a.py') ")
-			open(".b.py","w").write(l)
-			os.system("python .b.py")
-			os.system("pycdc .a.py > .b.py")
+			open(".Rahul.py","w").write(l)
+			os.system("python .Rahul.py")
+			os.system("pycdc .a.py > .Rahul.py")
 		elif "exec((_)(" in file:
 			c= file.split('exec((_)(')[1]
 			l = ("import marshal,zlib,base64,minopyc\nx = (("+c+"\ny = x[:: -1]\nb = marshal.loads(zlib.decompress(base64.b64decode(y)))\nminopyc.dump_to_pyc(b,'.a.py') ")
-			open(".b.py","w").write(l)
-			os.system("python .b.py")
-			os.system("pycdc .a.py > .b.py")
+			open(".Rahul.py","w").write(l)
+			os.system("python .Rahul.py")
+			os.system("pycdc .a.py > .Rahul.py")
 		elif "exec(marshal.loads" in file:
 			filer = file.replace("exec(", "code=(")
-			open(".b.py", "w").write("import minopyc,marshal\n"+filer+"\nminopyc.dump_to_pyc(code, '.a.py')")
-			os.system("python3 .b.py;pycdc .a.py > .b.py")
+			open(".Rahul.py", "w").write("import minopyc,marshal\n"+filer+"\nminopyc.dump_to_pyc(code, '.a.py')")
+			os.system("python3 .Rahul.py;pycdc .a.py > .Rahul.py")
 		elif "exec((lambda __," in file:
 			filer = file.replace("exec(", "print(")
 			open(".a.py", "w").write(filer)
-			os.system("python2 .a.py > .b.py")
+			os.system("python2 .a.py > .Rahul.py")
 		else:
-			c= open(".b.py","r").read()
+			c= open(".Rahul.py","r").read()
 			if c == '':
 				print(f'{R}[{G1}+{R}]{G1}THE TOOL CAN JUST DECODED DATA')
 				save=input(f"{R}[{G1}+{R}]{G1}ENTER PATH TO SAVE FROM : ")
 				os.system(f"pycdas .a.py > {save}")
-				os.system("rm .a.py;rm .b.py")
+				os.system("rm .a.py;rm .Rahul.py")
 			elif "WARNING: Decompyle incomplete" in c:
 				print(f'{R}[{G1}+{R}]{G1}THE TOOL CAN JUST DECODED DATA')
 				save=input(f"{R}[{G1}+{R}]{G1}ENTER PATH TO SAVE FROM : ")
@@ -138,8 +199,8 @@ def main_dec():
 		open(".a.py")
 		os.system("rm .a.py")
 		try:
-			open(".b.py")
-			os.system("rm .b.py")
+			open(".Rahul.py")
+			os.system("rm .Rahul.py")
 		except:pass
 	except:pass
 	exit(f"{R}[{G1}+{R}]{G1}DECODE DONE🤑🤑Kalyan mitro")
