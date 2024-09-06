@@ -63,7 +63,6 @@ logo = f"""
 
                                                       
 {R}[{G1}+{R}]{G1}Decode{G1}━{R}>{G1}Marshal.Zlib.Decompress.Base64.B64decode
-{R}[{G1}+{R}]{G1}Yourname{G1}━{R}>{G1}{name}
 """
 def main_dec():
 	os.system('clear')
